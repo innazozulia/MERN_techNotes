@@ -1,0 +1,65 @@
+29102022	19:50:44	5dd53df4-b1a3-4a75-bbc0-bf52f254979b	Error: Not allowed by CORS	GET	/	https://www.google.com
+29102022	19:50:44	67c1a8ae-7739-42a4-8282-d14f18e36342	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+30102022	18:10:44	e17af9f5-d379-40e0-a555-f2b5fc1946e3	Error: Cannot set headers after they are sent to the client	DELETE	/users	undefined
+31102022	16:10:05	7cecd646-0659-4a3b-a209-74c1fada759c	Error: Cannot set headers after they are sent to the client	GET	/notes	undefined
+31102022	16:10:07	47d1b47d-46fe-4f24-93aa-f3ecebded3c3	Error: Cannot set headers after they are sent to the client	GET	/notes	undefined
+31102022	16:10:59	8480f333-708a-4fec-b2c5-a1dbbc080a7d	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:12:29	72f3a99c-4185-4eba-b050-f04a4f2e4b91	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:13:31	85079b49-6a50-4435-a082-dd24a25aeb64	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:18:18	3498138d-b8c0-4e3b-80fd-c39c81de6a8c	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:19:25	9edb0ffb-9da2-4a4c-b845-6ab1cb236f51	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:20:18	55ac74bd-b9c0-4d6d-963e-a1ab7e63fc6f	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "bla bla" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:20:58	e3a538b1-b732-482b-9bae-79214956c846	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:21:16	ecf30e66-574e-4a92-93a0-2290d0eb4c38	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:21:32	36a80535-23d9-4a4a-b2c1-f8c0fa473d85	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:21:33	d355673a-29ad-4dc7-af3c-abd71c2c446a	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:21:34	cea60461-1902-4452-95f9-6aee4a687349	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:21:37	51e890cb-f858-463c-ac78-a57b5f8677f0	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+31102022	16:24:47	2ec6ca70-5414-4fcc-b66d-1b80ec96ebfb	SyntaxError: Unexpected number in JSON at position 45	POST	/notes	undefined
+31102022	16:25:00	c7d03634-012c-49f8-a6f4-8d8b2da3fceb	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+31102022	16:32:27	0dbb3b47-7f70-45db-978d-65dfece7cc34	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	18:32:42	3404ef56-c48e-4aff-bd38-9967323d9206	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:33:38	852d4ae4-d8ff-46d0-9eb5-373d9e2b7bab	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:34:01	340f0b10-1a90-4862-ab4d-61eef5459daf	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:44:45	165b879a-290c-41b1-a004-8ff25d8015f2	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:44:48	720bbb50-a02e-4952-9c81-7898ae3efa34	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:45:38	921e9eab-7911-4ffe-8a36-ebed05524faf	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:45:40	30c22793-a463-48e8-9296-535420ad5522	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:45:40	d6b608f6-39cc-4f34-9449-db5764ed5ae1	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:50:55	96b09e0f-8aff-4994-9111-55be45c61099	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:51:19	8bf3db8b-500a-4ac2-a811-463f270ce928	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	18:52:07	fe3debdd-2e60-4c8e-ac39-87a6c1e08301	Error: Not allowed by CORS	GET	/users	http://localhost:3000
+01112022	19:04:34	5551cfef-821d-4817-b275-aed67624cecd	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:04:39	263ca201-780a-4aab-a280-3da9c483424f	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:04:57	ccca18d1-0bb4-45f6-b577-037ea7e524f1	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Inna" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+01112022	19:05:26	8d0a6d80-1605-40b9-ac49-561b70dbe436	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:05:31	e3f5aa7a-60a3-4e36-9ef0-3f017adaec1d	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:06:11	09ce024d-a14e-4b9f-bd05-c1e355db1196	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:06:20	bb3baa07-ece8-428e-b7ce-51a01c83087c	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:31:25	056fee07-aea7-41e5-b719-0dde0b996d54	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:32:01	d51fb591-7e13-45f0-b399-c5fbbc83c61e	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:32:33	71719551-d5d0-4484-b0a5-59d92a90b0eb	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:34:11	564b5e8d-359f-4e1e-a421-26a082589269	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:36:06	43d25fb3-ce1b-41b2-8dcb-5de799d3b05c	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:36:58	fdcd842e-d5cf-4af9-8291-a18b208f25ce	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	19:40:50	5bbe02fb-2958-48f0-8bd7-5e2bccebabec	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:43:09	f75a21aa-3a92-4251-9fe2-e21917dd4ca7	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:43:11	94cbb4d0-bb7d-42b1-a150-065207e26267	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:49:48	241ad187-21b9-4f28-bd03-6e2a13ed5250	ReferenceError: Cannot access 'user' before initialization	GET	/notes	undefined
+01112022	19:54:04	2d52f804-1ba7-4a91-bafd-fa17a4be19d7	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:57:13	1280d387-868b-46ea-9396-20e75cce5081	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:58:04	85fe79b4-b94a-4e5e-976b-d046ea561eeb	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	19:58:22	282148ec-b368-4bb0-9feb-fcf3373a9b8b	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:01:24	ccd916c5-83ca-4642-a7f1-320790e6f52e	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	20:01:36	de7ab547-f281-4422-b265-c3963d28c0c6	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	20:06:39	cd59716d-8571-4355-ad15-90c7ec85c788	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:14:55	160c8c00-19d2-47cb-84c5-e2f0258abbcd	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Nick" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+01112022	20:22:37	dd5ed064-63f5-4966-98fe-15400e7331b1	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	http://localhost:3000
+01112022	20:31:47	b177e193-6761-4bdf-bc0f-083d8dc6b4a3	SyntaxError: Unexpected token } in JSON at position 156	POST	/notes	undefined
+01112022	20:34:07	159101b3-264d-4bc7-aa92-7ff2d8a54dc6	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Baron" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
+01112022	20:36:35	765613ca-714d-4153-84eb-b94e049d0759	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:37:04	aa5063e3-5a08-426f-812e-5a4a537aeb45	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:37:05	e65d7795-15c8-477e-9c1c-b35723c1a4d3	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:37:06	fef8f62b-4d6a-4215-8d2b-fc7878f1fc0b	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:37:07	e67935e2-580f-4fde-99ac-8f4049d325cf	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+01112022	20:37:32	a435c99e-f0fb-4074-98ae-a2a6dae3e8e1	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
