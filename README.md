@@ -16,7 +16,8 @@ Server side npm packages:
    - "dotenv"
    - "express"
    - "express-async-handler"
-   - express-rate-limit
+   - "express-rate-limit"
+   - "jsonwebtoken"
    - "mongoose"
    - "mongoose-sequence"
    - "react-icons"
