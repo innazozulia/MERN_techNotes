@@ -4,6 +4,7 @@ Web application for the service center to keep track of the work done.
 MERN stack: NodeJS, Express, ReactJS, MongoDB
 
 -- servser side command to run npm start
+
 -- client side commant to run npm start
 
 
@@ -15,6 +16,7 @@ Server side npm packages:
    - "dotenv"
    - "express"
    - "express-async-handler"
+   - express-rate-limit
    - "mongoose"
    - "mongoose-sequence"
    - "react-icons"
