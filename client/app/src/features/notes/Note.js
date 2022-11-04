@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import { FaPencilAlt } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { selectNoteById } from "./notesApiSlice";
 
@@ -37,7 +37,7 @@ const Note = ({ noteId }) => {
 
         <td className="table__cell">
           <button className="icon-button table__button" onClick={handleEdit}>
-            {/* <FontAwesomeIcon icon={faPenToSquare} /> */}
+            <FaPencilAlt />
           </button>
         </td>
       </tr>

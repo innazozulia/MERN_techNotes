@@ -21,7 +21,7 @@ const Public = () => {
           <br />
           Ukraine,Kyiv
           <br />
-          <a href="tel:+15555555555">(555) 555-5555</a>
+          <a href="tel:+044444098123">044 444 098 123</a>
         </address>
       </main>
       <footer>

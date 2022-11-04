@@ -63,3 +63,5 @@
 01112022	20:37:06	fef8f62b-4d6a-4215-8d2b-fc7878f1fc0b	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
 01112022	20:37:07	e67935e2-580f-4fde-99ac-8f4049d325cf	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
 01112022	20:37:32	a435c99e-f0fb-4074-98ae-a2a6dae3e8e1	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
+03112022	19:14:15	cd6f6d0d-11bb-41ae-8348-3a2675aa2d8e	ValidationError: Note validation failed: undefined: Cannot read properties of undefined (reading 'options')	PATCH	/notes	http://localhost:3000
+03112022	19:40:12	24687a2f-59ec-40bf-8a3a-5cd9210eb479	ValidationError: Note validation failed: undefined: Cannot read properties of undefined (reading 'options')	PATCH	/notes	http://localhost:3000
