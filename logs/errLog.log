@@ -65,3 +65,6 @@
 01112022	20:37:32	a435c99e-f0fb-4074-98ae-a2a6dae3e8e1	CastError: Cast to ObjectId failed for value "Inna" (type string) at path "_id" for model "User"	GET	/notes	undefined
 03112022	19:14:15	cd6f6d0d-11bb-41ae-8348-3a2675aa2d8e	ValidationError: Note validation failed: undefined: Cannot read properties of undefined (reading 'options')	PATCH	/notes	http://localhost:3000
 03112022	19:40:12	24687a2f-59ec-40bf-8a3a-5cd9210eb479	ValidationError: Note validation failed: undefined: Cannot read properties of undefined (reading 'options')	PATCH	/notes	http://localhost:3000
+04112022	20:52:25	6f342d8f-b0c0-4e70-8e3f-454b83af89db	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000
+04112022	20:53:59	d2027d86-b3d6-437a-adc7-6095f99cc29f	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000
+04112022	21:11:06	c6347610-0a00-41fc-86c2-62f5cd6bba75	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000
