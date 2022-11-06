@@ -42,3 +42,8 @@ Client side npm packages:
    - "react-icons"
    - "react-redux"
    - "react-router-dom"
+   
+   Screenshots: 
+   <img width="1415" alt="all tickets" src="https://user-images.githubusercontent.com/117219185/200185047-fd38325c-7c87-4645-aeb5-09ef58e0ee59.png">
+
+   
