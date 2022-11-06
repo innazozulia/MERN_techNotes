@@ -1,7 +1,19 @@
-# MERN_techNotes
+# MERN_techNotes.
+MERN stack: NodeJS, Express, ReactJS, MongoDB
+
+
 Web application for the service center to keep track of the work done.
 
-MERN stack: NodeJS, Express, ReactJS, MongoDB
+Wed application has login, logout, users (clients),
+employees (Roles: Employee, Admin, Manager), 
+ability to add new notes, read, edit and delete old notes, for employees:
+edit, add and delete employees, check status order.
+
+Front: ReactJS
+Back: NextJS, Express
+Statement: Redux toolkit
+DB: MongoDB
+
 
 -- servser side command to run npm start
 
