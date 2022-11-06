@@ -37,6 +37,7 @@ Server side npm packages:
    
    
 Client side npm packages:
+   - "jwt-decode"
    - "react"
    - "react-dom"
    - "react-icons"
