@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 const PersistLoginComponent = () => {
   const [persist] = usePersist();
   const token = useSelector(selectCurrentToken);
-  const effectRan = useRef(false);
+  const effectRan = React.useRef(false);
 
   const [trueSuccess, setTrueSuccess] = React.useState(false);
 
@@ -54,7 +54,7 @@ const PersistLoginComponent = () => {
     content = (
       <p className="errmsg">
         {error.data?.message}
-        <Link to="/login">Please login again</Link>.
+        <Link to="/login"> - Please login again</Link>.
       </p>
     );
   } else if (isSuccess && trueSuccess) {

@@ -3,7 +3,7 @@ const User = require("../models/User");
 const asyncHandler = require("express-async-handler");
 const { json } = require("body-parser");
 
-// @desc Get all notes
+// Get all notes
 
 const getAllNotes = asyncHandler(async (req, res) => {
   // Get all notes from MongoDB
@@ -33,7 +33,10 @@ const createNewNote = asyncHandler(async (req, res) => {
   }
 
   // Check for duplicate title
-  const duplicate = await Note.findOne({ title }).lean().exec();
+  const duplicate = await Note.findOne({ title })
+    .collation({ locale: "en", strength: 2 })
+    .lean()
+    .exec();
 
   if (duplicate) {
     return res.status(409).json({ message: "Duplicate note title" });
@@ -50,7 +53,7 @@ const createNewNote = asyncHandler(async (req, res) => {
   }
 });
 
-// @desc Update a note
+// Update a note
 const updateNote = asyncHandler(async (req, res) => {
   const { id, user, title, text, completed } = req.body;
 
@@ -67,7 +70,10 @@ const updateNote = asyncHandler(async (req, res) => {
   }
 
   // Check for duplicate title
-  const duplicate = await Note.findOne({ title }).lean().exec();
+  const duplicate = await Note.findOne({ title })
+    .collation({ locale: "en", strength: 2 })
+    .lean()
+    .exec();
 
   // Allow renaming of the original note
   if (duplicate && duplicate?._id.toString() !== id) {
@@ -84,7 +90,7 @@ const updateNote = asyncHandler(async (req, res) => {
   res.json(`'${updatedNote.title}' updated`);
 });
 
-// @desc Delete a note
+// Delete a note
 const deleteNote = asyncHandler(async (req, res) => {
   const { id } = req.body;
 

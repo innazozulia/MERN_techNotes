@@ -9,8 +9,9 @@ const Public = () => {
       </header>
       <main className="public__main">
         <p>
-          Located in Beautiful Downtown Foo City, techNots Repairs provides a
-          trained staff ready to meet your tech repair needs.
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
         </p>
         <address className="public__addr">
           <p>

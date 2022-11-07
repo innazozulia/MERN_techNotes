@@ -3,8 +3,11 @@ import { useUpdateNoteMutation, useDeleteNoteMutation } from "./notesApiSlice";
 import { useNavigate } from "react-router-dom";
 import { TfiSave } from "react-icons/tfi";
 import { IoTrashOutline } from "react-icons/io5";
+import useAuth from "../../hooks/useAuth";
 
 const EditNoteForm = ({ note, users }) => {
+  const { isManager, isAdmin } = useAuth();
+
   const [updateNote, { isLoading, isSuccess, isError, error }] =
     useUpdateNoteMutation();
 
@@ -76,6 +79,19 @@ const EditNoteForm = ({ note, users }) => {
   const validTextClass = !text ? "form__input--incomplete" : "";
 
   const errContent = (error?.data?.message || deleteError?.data?.message) ?? "";
+
+  let deleteButton = null;
+  if (isManager || isAdmin) {
+    deleteButton = (
+      <button
+        className="icon-button"
+        title="Delete"
+        onClick={onDeleteNoteClicked}
+      >
+        <IoTrashOutline />
+      </button>
+    );
+  }
   const content = (
     <>
       <p className={errClass}>{errContent}</p>
@@ -92,13 +108,14 @@ const EditNoteForm = ({ note, users }) => {
             >
               <TfiSave />
             </button>
-            <button
+            {deleteButton}
+            {/* <button
               className="icon-button"
               title="Delete"
               onClick={onDeleteNoteClicked}
             >
               <IoTrashOutline />
-            </button>
+            </button> */}
           </div>
         </div>
         <label className="form__label" htmlFor="note-title">

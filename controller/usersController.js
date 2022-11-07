@@ -3,9 +3,8 @@ const Note = require("../models/Note");
 const asyncHandler = require("express-async-handler");
 const bctypt = require("bcrypt");
 
-// @description GET all users
-// @route GET /users
-// @access Private
+//GET all users
+
 const getAllUsers = asyncHandler(async (req, res) => {
   // Get all users from MongoDB
   const users = await User.find().select("-password").lean();
@@ -16,19 +15,19 @@ const getAllUsers = asyncHandler(async (req, res) => {
   res.json(users);
 });
 
-// @description Create new user
-// @route POST /users
-// @access Private
+// Create new user
 const createNewUser = asyncHandler(async (req, res) => {
   const { username, password, roles } = req.body; //take info from input
 
   // confirm data
-  if (!username || !password || !roles.length) {
-    // !Array.isArray(roles)
+  if (!username || !password) {
     return res.status(400).json({ message: "All fields are required" });
   }
   //check for duplicate
-  const duplicate = await User.findOne({ username }).lean().exec();
+  const duplicate = await User.findOne({ username })
+    .collation({ locale: "en", strength: 2 })
+    .lean()
+    .exec();
 
   if (duplicate) {
     return res.status(409).json({ message: "Duplicate user name" });
@@ -37,7 +36,10 @@ const createNewUser = asyncHandler(async (req, res) => {
   const hashedPassword = await bctypt.hash(password, 10); // salt round
 
   //create new user
-  const userObject = { username, password: hashedPassword, roles };
+  const userObject =
+    !Array.isArray(roles) || !roles.length
+      ? { username, password: hashedPassword }
+      : { username, password: hashedPassword, roles };
 
   //create and store new user
   const user = await User.create(userObject);
@@ -49,9 +51,7 @@ const createNewUser = asyncHandler(async (req, res) => {
   }
 });
 
-// @description Update a user
-// @route PUTCH /users
-// @access Private
+//  Update a user
 const updateUser = asyncHandler(async (req, res) => {
   const { id, username, roles, active, password } = req.body;
 
@@ -75,7 +75,10 @@ const updateUser = asyncHandler(async (req, res) => {
   }
 
   //check for duplicate
-  const duplicate = await User.findOne({ username }).lean().exec();
+  const duplicate = await Note.findOne({ title })
+    .collation({ locale: "en", strength: 2 })
+    .lean()
+    .exec();
 
   // Allow updates to the original user
   if (duplicate && duplicate?._id.toString() !== id) {
@@ -96,9 +99,7 @@ const updateUser = asyncHandler(async (req, res) => {
   res.json({ message: `${updatedUser.username} updated` });
 });
 
-// @description DELETE a user
-// @route DELETE /users
-// @access Private
+// DELETE a user
 const deleteUser = asyncHandler(async (req, res) => {
   const { id } = req.body;
 
