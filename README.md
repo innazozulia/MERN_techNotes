@@ -45,23 +45,30 @@ Client side npm packages:
    - "react-router-dom"
    
    Screenshots: 
+   
+   
+   Main screen (need authentication)
+   <img width="1440" alt="main" src="https://user-images.githubusercontent.com/117219185/200337620-76990b70-16af-468f-8ebb-4ba7746340ce.png">
+   
+   Login form 
+<img width="1440" alt="login" src="https://user-images.githubusercontent.com/117219185/200337704-007b0742-a2cf-4aaa-9e65-a6aad4eaffe9.png">
+
    Main screen (when the user is logged in)
-   <img width="1429" alt=" main " src="https://user-images.githubusercontent.com/117219185/200186355-0da881a0-17c7-4114-83f3-dd20b55934d0.png">
-   
-   
-   Add new employees 
-  <img width="1430" alt="new user" src="https://user-images.githubusercontent.com/117219185/200186631-80059743-8a1f-4b27-8316-06bf36b7f1c1.png">
+  <img width="1440" alt="loggin" src="https://user-images.githubusercontent.com/117219185/200337766-73c1b79d-eb96-4e7b-a632-0ee0e984b58a.png">
   
-  Check all employees 
-<img width="1426" alt="all employees" src="https://user-images.githubusercontent.com/117219185/200186699-ecd2a9ad-05bf-44b4-9879-6d244e166063.png">
+  Check all employees (with the ability to edit and delete users)
+<img width="1440" alt="check users" src="https://user-images.githubusercontent.com/117219185/200337938-866c167f-c31d-48c7-9dc5-6c8aa6865e22.png">
 
- 
+  Add new employees 
+<img width="1440" alt="add new user" src="https://user-images.githubusercontent.com/117219185/200338109-f3a014df-f19f-4dbe-a26e-bac4c945f830.png">
 
-  Add new ticket 
-<img width="1426" alt="new ticket" src="https://user-images.githubusercontent.com/117219185/200186583-7f6975e8-d7e5-4043-98f1-a2950a3305f5.png">
 
   Check all tickets and status (with the ability to edit and delete depending on the role)
-<img width="1415" alt="all tickets" src="https://user-images.githubusercontent.com/117219185/200185047-fd38325c-7c87-4645-aeb5-09ef58e0ee59.png">
+<img width="1440" alt="all tickets" src="https://user-images.githubusercontent.com/117219185/200338225-13a4829d-6116-4c0b-ac85-96d995c86396.png">
+
+
+  Add new ticket 
+<img width="1440" alt="add new ticket" src="https://user-images.githubusercontent.com/117219185/200338243-7f508868-5554-4ea3-bd4d-a0105db12250.png">
 
 
 
