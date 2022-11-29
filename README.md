@@ -14,10 +14,9 @@ Back: NextJS, Express
 Statement: Redux toolkit
 DB: MongoDB
 
-
--- servser side command to run npm start
-
--- client side commant to run npm start
+--  to install dependences  `npm i`
+-- servser side command to run  `npm start`
+-- client side commant to run  `npm start`
 
 
 Server side npm packages:
